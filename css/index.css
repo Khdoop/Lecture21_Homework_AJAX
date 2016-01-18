@@ -1,0 +1,40 @@
+body {
+    font-family: Calibri;
+    font-size: 18px;
+}
+
+#container {
+    width: 1070px;
+    min-height: 400px;
+    margin: 0 auto;
+    background-color: #a5addb;
+}
+
+.person {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 7px;
+    box-sizing: border-box;
+    border: 3px solid navajowhite;
+    text-align: center;
+    position: relative;
+}
+
+.person > div {
+    background: rgba(255,255,255,0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: rebeccapurple;
+    height: 25px;
+    overflow: hidden;
+}
+
+.person:hover {
+    border-color: #ffbe88;
+    transform: scale(1.05);
+    cursor: pointer;
+}
